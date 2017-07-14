@@ -1,0 +1,6 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.tabCompletion": true,
+  "editor.tabSize": 2,
+  "html.format.wrapAttributes": "force-aligned"
+}

@@ -1,0 +1,22 @@
+<div class='minesweeper'>
+  <pre [innerText]='game.toString()'></pre>
+
+  <form (submit)='go()'>
+    <input class='form-control'
+           placeholder='Coords ("cd") or "reset"'
+           [(ngModel)]='coords'
+           name='coords'
+           autocomplete='off'
+           autofocus />
+  </form>
+
+  <p *ngIf='game.isWon'
+     class='mt-2 mb-0 text-success'>You win.</p>
+
+  <p *ngIf='game.isLost'
+     class='mt-2 mb-0 text-danger'>Game over.</p>
+
+  <p *ngIf='warning'
+     class='mt-2 mb-0 text-warning'
+     [innerText]='warning'></p>
+</div>
