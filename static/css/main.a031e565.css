@@ -1,0 +1,30 @@
+* {
+  color: inherit;
+  font-weight: inherit;
+}
+
+:not(pre) {
+  font-family: inherit;
+}
+
+a:not(:focus):not(:hover) {
+  text-decoration: none;
+}
+
+input {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 730px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.a031e565.css.map*/
